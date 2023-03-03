@@ -1,0 +1,16 @@
+.blueButton{
+    background-color: #1e90ff;
+    padding: 0.5rem 2rem;
+    border-radius: 0.1rem;
+    color: #fff;
+    font-family: "Roboto";
+    font-weight: 600;
+    display: inline-block;
+    transition: 0.2s;
+    -webkit-user-select: none;
+}
+
+.blueButton:hover {
+    background-color: #21222c;
+    cursor: pointer;
+}

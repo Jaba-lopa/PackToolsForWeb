@@ -1,0 +1,41 @@
+//#1e90ff
+//#2c3136
+
+header{
+    background-color: #1e90ff;
+    color: #fff;
+}
+
+.headerWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7vh;
+    min-height: 3rem;
+    width: 50%;
+    margin: 0 auto;
+    div{
+        cursor: pointer;
+    }
+
+    .favorites{
+        color: #fff;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.countFavorites{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    img{
+        width: 1.7rem;
+        position: absolute;
+    }
+    div{
+        z-index: 10;
+        font-size: 0.9rem;
+    }
+}

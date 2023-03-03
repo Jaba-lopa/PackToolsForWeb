@@ -1,0 +1,21 @@
+.color{        
+    width: 49%;
+    height: 50vh;
+    position: relative;
+    overflow-y: hidden;
+
+    .color__color{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 80%;
+        margin-top: 1rem;
+
+        .color__colorText {
+            border-bottom: 2px solid black;
+            display: inline-block;
+            cursor: pointer;
+        }
+    }
+}

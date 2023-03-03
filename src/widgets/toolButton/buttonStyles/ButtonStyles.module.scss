@@ -1,0 +1,21 @@
+.styleTypeWrapper{
+    margin-top: 1rem;
+    .styleTypeItem{
+        background-color: #fff;
+        color: #1f1f1f;
+        padding: 10px;
+        border-right: 2px solid #1f1f1f;
+        border-bottom: 2px solid #1f1f1f;
+
+    }
+    .styleTypeItem_active {
+        border-bottom: 2px solid #fff;
+    }
+}
+
+.styleSection {
+    background: #fff;
+    margin-top: 11px;
+    padding: 10px 0 0 10px;
+}
+

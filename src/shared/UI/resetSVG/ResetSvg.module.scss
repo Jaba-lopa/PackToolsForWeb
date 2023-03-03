@@ -1,0 +1,26 @@
+.ResetSvgItem{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    cursor: pointer;
+    padding: 0 0.5rem;
+
+    animation: none;
+
+    img{
+        width: 1.4rem;
+    }
+}
+
+.ResetSvgItem:hover{
+    animation: resetRotate 1.4s linear infinite;
+}
+
+@keyframes resetRotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

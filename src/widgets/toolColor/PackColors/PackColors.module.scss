@@ -1,0 +1,23 @@
+.packColors{
+    background-color: #fff;
+    width: 49%;
+    height: 50vh;
+    overflow-y: scroll;
+
+    .packColors__name{
+        display: flex;
+        padding: 0.5rem 0 0.5rem 0.5rem;
+        border-bottom: 2px solid black;
+    }
+
+    input{
+        width: 100%;
+        font-size: 1rem;
+    }
+}
+
+.packNull{
+    display: flex; 
+    justify-content: center; 
+    padding-top: 2rem; color: grey
+}

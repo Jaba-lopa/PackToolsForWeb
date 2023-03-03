@@ -1,0 +1,18 @@
+.styleBtn{
+    padding: 0 10px;
+}
+
+.styleBtn__color{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.styleBtn__operationsWrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-gap: 20px;
+    padding: 10px 0;
+}

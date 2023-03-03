@@ -1,0 +1,27 @@
+.favoritesItem{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 0;
+    border-bottom: 1px solid #1e90ff;
+    cursor: pointer;
+    transition: 0.2s;
+    
+    .favoriteTitle{
+        display: flex;
+
+        div, span{
+            color: #fff;
+            font-family: 'Roboto';
+        }
+        
+    }
+
+    .favoriteDel{
+        font-family: 'Roboto';
+        color: #fff;
+    }
+}
+
+.favoritesItem:hover{
+    background-color: #1f1f1f;
+}

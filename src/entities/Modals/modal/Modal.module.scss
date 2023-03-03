@@ -1,0 +1,40 @@
+.spaceBehindModal{
+    position: fixed;
+    top:0; left:0; right: 0; bottom: 0;
+    background: rgb(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+}
+
+.modal{
+    padding: 1rem;
+    border-radius: 0.2rem;
+    background-color: #fff;
+    color: black;
+    min-width: 15rem;
+    min-height: 15rem;
+}
+
+.modalTile {
+    font-weight: 500;
+
+}
+
+.modalItems{
+    display: flex;
+    flex-direction: column;
+}
+
+.modalItem {
+    padding: 10px 0;
+    border-bottom: 2px solid #1e90ff;
+    transition: 0.2s;
+    color: black;
+}
+
+.modalItem:hover{
+    background-color: #efefef;
+    cursor: pointer;
+}

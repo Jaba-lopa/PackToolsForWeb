@@ -1,0 +1,36 @@
+.packColors__item {
+    border-bottom: 2px solid black;
+    display: flex;
+
+    .item__color {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 6rem;
+    }
+
+    .item__input {
+        input{
+            font-size: 1rem;
+            width: 100%;
+        }
+        padding: 0.5rem 0;
+        width: 95%;
+        border-left: 1px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .item__delete {
+            padding-left: 0.5rem;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            img{
+                width: 1rem;
+                height: 1rem;
+            }
+        }
+        
+    }
+}

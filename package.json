@@ -1,0 +1,28 @@
+{
+  "name": "packtoolsforweb",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview --port 8080"
+  },
+  "dependencies": {
+    "@mobx-devtools/tools": "^0.0.4",
+    "mobx": "^6.8.0",
+    "mobx-react": "^7.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.1",
+    "sass": "^1.58.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "hex-to-rgba": "^2.0.1",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  }
+}

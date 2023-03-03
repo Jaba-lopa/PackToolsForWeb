@@ -1,0 +1,14 @@
+.paletteWrapper{
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 0.4s;
+
+    
+}
+.activePalette{
+    transform: translateY(0);
+}
+.deactivePalette{
+    transform: translateY(-100%);
+}
